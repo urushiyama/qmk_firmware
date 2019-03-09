@@ -74,14 +74,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_CAPS,    KC_LALT,  KC_LCMD,  JP_MEISU, KC_SPACE, KC_PENT,  JP_MKANA, KC_RGUI,  KC_RALT,  KC_RCTRL, MO(FN_MO)
   ),
   [FN_MO] = LAYOUT_SPLIT_SPACE( /* Function Layer */ \
-    KC_POWER,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,       KC_F12,     KC_F13,   KC_EJCT, \
+    KC_SLEP,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,       KC_F12,     KC_F13,   KC_EJCT, \
     _______,    KC_BRMD,  KC_BRMU,  _______,  _______,  _______,  _______,  KC_MRWD,  KC_MPLY,  KC_MFFD,  KC__MUTE, KC__VOLDOWN,  KC__VOLUP,  _______, \
     _______,    _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_UP,    _______,      _______, \
     TG(FN_LO),  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_LEFT,  KC_DOWN,  KC_RIGHT,     _______, \
     _______,    _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  MO(FN_MO)
   ),
     [FN_LO] = LAYOUT_SPLIT_SPACE( /* Function Layer (Locked) */ \
-    KC_POWER,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,       KC_F12,     KC_F13,   KC_EJCT, \
+    KC_SLEP,   KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,       KC_F12,     KC_F13,   KC_EJCT, \
     XXXXXXX,    KC_BRMD,  KC_BRMU,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_MRWD,  KC_MPLY,  KC_MFFD,  KC__MUTE, KC__VOLDOWN,  KC__VOLUP,  XXXXXXX, \
     XXXXXXX,    XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_UP,    XXXXXXX,      XXXXXXX, \
     TG(FN_LO),  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_LEFT,  KC_DOWN,  KC_RIGHT,     XXXXXXX, \
