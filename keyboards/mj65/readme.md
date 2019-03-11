@@ -5,8 +5,8 @@
 The Keyboard of Mac JIS-layout lovers, by Mac JIS-layout lovers, for Mac JIS-layout lovers.
 
 Keyboard Maintainer: [urushiyama](https://github.com/urushiyama)  
-Hardware Supported: [MJ65 PCB](https://github.com/urushiyama/MJ65-PCB)
-Hardware Availability: [MJ65 Plate](https://github.com/urushiyama/MJ65-Plate)
+Hardware Supported: MJ65 PCB, [Adafruit ItsyBitsy 32u4 - 3V 8MHz](https://learn.adafruit.com/introducting-itsy-bitsy-32u4)  
+Hardware Availability: [MJ65 PCB data](https://github.com/urushiyama/MJ65-PCB) & [Plate data](https://github.com/urushiyama/MJ65-Plate), [Adafruit online shop](https://www.adafruit.com/product/3675)
 
 Make example for this keyboard (after setting up your build environment):
 
