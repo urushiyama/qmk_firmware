@@ -12,6 +12,7 @@ Are you US-layout (ANSI-layout) lovers? Although MJ65 does not support actual US
 Do you want one more key such as Menu Key? MJ65 also supports one additional key at the lower right side.
 
 Supported layouts is below:
+
 |Name|Description|
 |----|-----------|
 |[default](#default)|JIS layout, 65 keys|
